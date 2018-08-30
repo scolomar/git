@@ -1,0 +1,32 @@
+sed -i s/California/Kalifornia/g _css/*css tours/*htm resources/*htm *htm*
+links index.htm
+
+git status
+git commit -am "Change California for Kalifornia"
+git log
+git commit --amend -m "Substitute California by Kalifornia"
+git log
+
+sed  -i s/Explore/Xplore/g index.htm
+links index.htm
+
+git status
+git commit -am "Change Explore for Xplore in index.htm"
+git log
+git revert 1326
+links index.htm
+git log
+git revert 5aca
+links index.htm
+
+touch junk.1 junk.2 junk.3
+git status
+git add junk.1
+git status
+git clean -n
+git clean -f
+git status
+git reset HEAD junk.1
+git status
+git clean -f
+git status
