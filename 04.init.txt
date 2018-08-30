@@ -1,0 +1,10 @@
+cd
+mkdir MyFirstProject
+
+cd MyFirstProject
+ls -la
+
+git init
+
+ls -la
+find .git

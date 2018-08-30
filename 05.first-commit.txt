@@ -1,0 +1,18 @@
+cd
+cd MyFirstProject
+
+cat 1>first_file.txt
+This is my first file.
+CTRL-D
+
+git add .
+
+git commit -m "Add the first file"
+
+git log
+git help log
+git log -n1
+git log --since=2018-08-28 --until=2018-08-30
+git log --author="Sebas"
+git log --grep="file$"
+git log --grep="^Add"
