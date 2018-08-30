@@ -16,3 +16,7 @@ touch index.php
 git status
 rm index.php
 git status
+
+https://github.com/github/gitignore
+
+git config --global core.excludesfile .gitignore_global
