@@ -1,0 +1,22 @@
+mv first.txt primero.txt
+
+git status
+git rm first.txt
+git add primero.txt
+git status
+
+git mv second.txt segundo.txt
+git status
+
+mkdir First
+git mv third.txt First
+git status
+
+git commit -m "Move files and create the first folder"
+git status
+
+rm primero.txt
+ls -l
+git status
+git checkout -- primero.txt
+ls -l

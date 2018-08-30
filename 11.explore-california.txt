@@ -1,0 +1,12 @@
+cd
+wget -rx http://www.explorecalifornia.org/
+cd www.explorecalifornia.org
+
+sudo apt-get -y install links
+links file://index.html
+
+git init
+git status
+git commit -m "Initial commit"
+git log
+

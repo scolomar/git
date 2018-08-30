@@ -1,0 +1,26 @@
+sed -i "s/.$/ added to my project./" first.txt
+cat first.txt
+
+git status
+git diff
+
+sed -i "s/.$/ and it is the last file of my project./" third.txt
+cat third.txt
+
+git status
+git diff
+git diff first.txt
+git diff third.txt
+
+git add first.txt
+git status
+git diff
+git diff --staged
+
+git add third.txt
+git status
+git diff
+git diff --staged
+
+git commit -m "Modify the first and third file"
+git status

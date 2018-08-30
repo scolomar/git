@@ -1,0 +1,23 @@
+git status
+
+touch fourth.txt
+touch fifth.txt
+
+git status
+git add .
+git status
+git commit -m "Add two empty files"
+git status
+
+rm fourth.txt
+git status
+git rm fourth.txt
+git status
+git commit -m "Delete one empty file"
+git status
+git log
+git rm fifth.txt
+git status
+git log
+git commit -m "Delete another empty file"
+git status

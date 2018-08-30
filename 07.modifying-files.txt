@@ -1,0 +1,22 @@
+cat first.txt
+sed -i s/my/the/ first.txt
+cat first.txt
+
+git status
+git add first.txt
+
+sed -i s/my/the/ *.txt
+cat *.txt
+
+git status
+git add second.txt
+git status
+
+git commit -m "Make changes to first and second file"
+git status
+
+git add third.txt
+git status
+git commit -m "Make changes to the third file"
+git status
+git log

@@ -1,13 +1,16 @@
 cd
 cd MyFirstProject
 
-cat 1>first_file.txt
+cat 1>first.txt
 This is my first file.
 CTRL-D
 
+git status
 git add .
+git status
 
 git commit -m "Add the first file"
+git status
 
 git log
 git help log

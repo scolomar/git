@@ -1,0 +1,29 @@
+cd
+cd MyFirstProject
+
+cat 1>second.txt
+This is my second file.
+CTRL-D
+
+cat 1>third.txt
+This is my third file.
+CTRL-D
+
+git status
+git add second.txt
+git status
+git commit -m "Add the second file"
+git status
+git log
+
+git add .
+git status
+git commit -m "Add the third file"
+git status
+git log
+git help log
+git log -n1
+git log --since=2018-08-28 --until=2018-08-30
+git log --author="Sebas"
+git log --grep="file$"
+git log --grep="^Add"
