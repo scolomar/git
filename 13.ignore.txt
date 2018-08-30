@@ -1,0 +1,18 @@
+cat 1>.gitignore
+*.php
+!index.php
+Temp/
+CTRL-D
+
+git status
+git add .gitignore
+git commit -m "Add .gitignore file"
+
+mkdir Temp
+touch junk.php
+touch Temp/junk.tmp
+touch index.php
+
+git status
+rm index.php
+git status
