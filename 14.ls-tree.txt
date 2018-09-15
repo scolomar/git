@@ -1,0 +1,10 @@
+git ls-tree HEAD^^^^
+git ls-tree HEAD^^^
+git ls-tree HEAD^^
+git ls-tree HEAD^
+git ls-tree HEAD
+git ls-tree master
+git ls-tree master a/
+git ls-tree HEAD a/
+git ls-tree HEAD^ a/
+git ls-tree 16c6
