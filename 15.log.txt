@@ -1,0 +1,33 @@
+git log --oneline
+git log --oneline -3
+git log --oneline --since="2018-09"
+git log --oneline --until="2018-08"
+git log --oneline --before="2018-08"
+git log --oneline --since="last week"
+git log --oneline --since="2018-08-30" --until="2018-09-15"
+git log --oneline --since=2.weeks
+git log --oneline --author="Sebas"
+git log --oneline --author="S.*r"
+git log --oneline --grep="Add"
+git log --oneline --grep="s.*l"
+git log --oneline eb6a6e6..b13c349
+git log 14.ls-tree.txt
+git log --oneline 14.ls-tree.txt
+git log --oneline b13c349.. 14.ls-tree.txt
+git log --oneline b13c349..d1f38f7 14.ls-tree.txt
+git log -p
+git show
+git log -p 14.ls-tree.txt
+git log -p --oneline 14.ls-tree.txt
+git log --stat --summary 14.ls-tree.txt
+git log --format=oneline
+git log --oneline
+git log --format=short
+git log --format=medium
+git log --format=full
+git log --format=fuller
+git log --format=email
+git log --format=raw
+git log --raw
+git log --graph
+git log --graph --oneline --all --decorate
