@@ -1,0 +1,20 @@
+git show
+git show f9a709f
+git show --oneline HEAD
+git show --oneline HEAD^
+git show --oneline HEAD^^
+git show --oneline HEAD~3
+git ls-tree master
+git show 16c6206a2dfda7874c00b00e5b296165780555de
+git show 50cf3a40f9a54105589bbd6ecc9c4b5b31ea023d
+git diff
+git diff --staged
+git diff --cached
+git diff 37f4c6b
+git diff 87469a5
+git diff 87469a5 05.first-commit.txt
+git diff 87469a5..f9a709f 05.first-commit.txt
+git diff d1f38f7..HEAD
+git diff --stat --summary d1f38f7..HEAD
+git diff -w d1f38f7..HEAD
+git diff -b d1f38f7..HEAD
