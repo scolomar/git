@@ -1,0 +1,44 @@
+git branch
+cat .git/HEAD
+ls .git/refs/heads/
+cat .git/refs/heads/master
+git log -1
+git branch new_feature
+git branch
+ls .git/refs/heads/
+cat .git/refs/heads/new_feature
+git checkout new_feature
+git branch
+cat .git/HEAD
+cat .git/refs/heads/*
+git checkout master
+git branch -d new_feature
+git branch branch_examples
+git checkout branch_examples
+ls 17.branch.txt
+git checkout master
+ls 17.branch.txt
+git checkout branch_examples
+git add 17.branch.txt
+ls 17.branch.txt
+git checkout master
+git checkout branch_examples
+ls 17.branch.txt
+git commit -m "Add examples of branches"
+ls 17.branch.txt
+git checkout master
+ls 17.branch.txt
+git checkout branch_examples
+ls 17.branch.txt
+git diff master branch_examples
+git diff --color-words master branch_examples
+git diff --color-words master branch_examples^
+git diff --color-words master^ branch_examples
+git branch
+git branch --merged
+git checkout master
+git branch --merged
+git branch
+git branch -m branch_examples branches
+git branch
+export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w$(__git_ps1)\$ "
