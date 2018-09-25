@@ -1,0 +1,4 @@
+git checkout master
+vi 20.stash.txt
+git add .
+git commit -m 'Add file with stash example'
