@@ -1,0 +1,6 @@
+git branch -d mybranch
+git branch -D mybranch
+git push --delete origin mybranch
+git push origin :mybranch
+git push -d origin mybranch
+git remote prune origin --dry-run
