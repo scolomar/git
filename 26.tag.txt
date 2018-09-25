@@ -1,0 +1,23 @@
+git tag mytag HEAD^^
+git tag -a v2.4 -m "Version 2.4" HEAD^
+git logg -6
+git tag -ln
+git tag -d v2.4
+git tag -f pushes mytag
+git tag -d mytag
+git logg -6
+git push origin pushes
+git push origin --tags
+git fetch
+git fetch --tags
+git push --delete origin mytag
+git push origin :mytag
+git push -d origin mytag
+git remote prune origin --dry-run
+git checkout -b newbranch mytag
+git checkout mytag
+git gc
+git tag mytag
+git branch mybranch
+git checkout mybranch
+git checkout -b mybranch
