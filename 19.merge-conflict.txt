@@ -1,1 +1,16 @@
 git branch merge-conflict
+vi 19.merge-conflict.txt
+git add 19.merge-conflict.txt
+git commit -m 'Add merge-conflict file'
+git checkout merge-conflict
+vi 19.merge-conflict.txt
+git add 19.merge-conflict.txt
+git commit -m 'Add a different merge-conflict file'
+git checkout master
+git merge merge-conflict
+git merge --abort
+git merge merge-conflict
+vi 19.merge-conflict.txt
+git add 19.merge-conflict.txt
+git commit
+git log --graph --oneline --all --decorate
