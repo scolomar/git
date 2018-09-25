@@ -1,0 +1,4 @@
+git rebase master
+git rebase master newbranch
+git merge-base master newbranch
+git rebase --onto master branch1 branch2
