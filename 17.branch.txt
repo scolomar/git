@@ -42,3 +42,6 @@ git branch
 git branch -m branch_examples branches
 git branch
 export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$(__git_ps1)\$ "
+git status
+git add 17.branch.txt
+git commit -m 'Add one more example of branches'
