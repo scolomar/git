@@ -13,3 +13,8 @@ git checkout merges
 git log --graph --oneline --all --decorate
 git checkout master
 git log --graph --oneline --all --decorate
+git merge --ff-only merges
+git log --graph --oneline --all --decorate
+git checkout master
+git merge --ff-only merges
+git log --graph --oneline --all --decorate
