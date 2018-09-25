@@ -1,0 +1,13 @@
+git checkout -b remotes
+vi 21.remotes.txt
+git add .
+git commit -m 'Add file with examples of remote'
+git checkout master
+git fetch
+git merge remotes
+git push
+git branch -d remotes
+git remote
+git remote -v
+git remote rename github github_secobau
+git remote -v
